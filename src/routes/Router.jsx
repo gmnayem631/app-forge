@@ -12,10 +12,12 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
+        loader: () => fetch("apps.json").then((response) => response.json()),
         Component: Home,
       },
       {
         path: "/apps",
+        loader: () => fetch("apps.json").then((response) => response.json()),
         Component: Apps,
       },
       {
