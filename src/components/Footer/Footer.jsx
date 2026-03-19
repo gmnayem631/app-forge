@@ -52,7 +52,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                to="/installation"
+                to="/installations"
                 className="link link-hover hover:text-primary transition-colors"
               >
                 My Installations

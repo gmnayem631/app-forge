@@ -5,7 +5,7 @@ import heroImg from "../../assets/hero.png";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="max-w-11/12 mx-auto">
       {/* Content */}
       <div className="flex justify-center items-center flex-col gap-5">
         <h2 className="text-center text-4xl md:text-5xl font-bold md:font-extrabold">
