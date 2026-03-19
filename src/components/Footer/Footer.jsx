@@ -65,7 +65,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="link link-hover hover:text-primary transition-colors"
               >
-                Contribute on GitHub →
+                Contribute on GitHub
               </a>
             </li>
           </ul>
