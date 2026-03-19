@@ -2,6 +2,8 @@ import React from "react";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { FaAppStoreIos } from "react-icons/fa";
 import heroImg from "../../assets/hero.png";
+import playStore from "../../assets/playstore.png";
+import appStore from "../../assets/app-store.png";
 
 const Hero = () => {
   return (
@@ -22,13 +24,13 @@ const Hero = () => {
         </p>
         <div className="flex gap-4">
           <button className="btn">
-            <IoLogoGooglePlaystore size={24} />
+            <img src={playStore} className="w-6" alt="" />
             <a href="https://play.google.com/store/games" target="_blank">
               Google Play
             </a>
           </button>
           <button className="btn">
-            <FaAppStoreIos size={24} />
+            <img src={appStore} className="w-6" alt="" />
             <a href="https://apps.apple.com/us/iphone/today" target="_blank">
               App Store
             </a>
