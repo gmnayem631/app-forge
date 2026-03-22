@@ -4,7 +4,7 @@ import InstalledAppCard from "../../components/InstalledAppCard/InstalledAppCard
 
 const Installations = () => {
   const { installedApps } = useInstall();
-  console.log(installedApps);
+
   return (
     <div className="max-w-11/12 mx-auto my-20">
       <div className="flex flex-col gap-4 items-center">
@@ -29,9 +29,15 @@ const Installations = () => {
       {/* Installed Apps' cards */}
 
       <div className="">
-        {installedApps.map((app) => (
-          <InstalledAppCard key={app.id} app={app}></InstalledAppCard>
-        ))}
+        {installedApps.length === 0 ? (
+          <p className="text-[#627382] col-span-4 text-4xl text-center mt-16">
+            No apps installed yet.
+          </p>
+        ) : (
+          installedApps.map((app) => (
+            <InstalledAppCard key={app.id} app={app}></InstalledAppCard>
+          ))
+        )}
       </div>
     </div>
   );
