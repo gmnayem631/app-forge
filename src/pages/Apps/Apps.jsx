@@ -21,6 +21,7 @@ const Apps = () => {
         <p className="font-semibold text-xl">Apps Found ({apps.length})</p>
         <input
           type="text"
+          name="search"
           className="border border-gray-400 px-4 py-2 rounded-lg w-full sm:w-auto"
           placeholder="Search Apps"
         />

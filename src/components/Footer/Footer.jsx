@@ -78,6 +78,7 @@ const Footer = () => {
             <div className="join w-full">
               <input
                 type="email"
+                name="email"
                 placeholder="your@email.com"
                 className="input input-bordered join-item flex-1 bg-base-100 focus:outline-none focus-within:ring-2 focus-within:ring-primary/40"
                 required

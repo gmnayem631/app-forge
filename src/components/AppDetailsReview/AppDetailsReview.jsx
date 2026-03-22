@@ -2,6 +2,7 @@ import React from "react";
 import downloadIcon from "../../assets/icon-downloads.png";
 import ratingsIcon from "../../assets/icon-ratings.png";
 import reviewsIcon from "../../assets/icon-review.png";
+import { useInstall } from "../../context/useInstall";
 
 const formatDownloads = (num) => {
   if (num >= 1000000) return `${num / 1_000_000}M`;
@@ -20,6 +21,10 @@ const AppDetailsReview = ({ app }) => {
     ratingAvg,
     size,
   } = app;
+
+  const { installApp, isInstalled } = useInstall();
+  const installed = isInstalled(app.id);
+
   return (
     <div className="flex gap-10">
       <img src={image} className="bg-white h-87 rounded-lg" alt="" />
@@ -54,8 +59,12 @@ const AppDetailsReview = ({ app }) => {
             <p>{reviews}</p>
           </div>
         </div>
-        <button className="btn bg-[#00D390] text-white font-semibold text-lg">
-          Install Now ({size}MB)
+        <button
+          onClick={() => installApp(app)}
+          disabled={installed}
+          className={`btn ${installed ? "bg-red-400" : "bg-[#00D390]"}  text-white font-semibold text-lg`}
+        >
+          {installed ? "Installed" : `Install Now (${size}MB)`}
         </button>
       </div>
     </div>

@@ -3,7 +3,6 @@ import { useLoaderData, useNavigate, useParams } from "react-router";
 import AppDetailsReview from "../../components/AppDetailsReview/AppDetailsReview";
 import ReviewChart from "../../components/ReviewChart/ReviewChart";
 import { FaArrowLeft } from "react-icons/fa";
-import { useInstall } from "../../context/useInstall";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -11,8 +10,7 @@ const AppDetails = () => {
   const app = allApps.find((a) => a.id === parseInt(id));
 
   const navigate = useNavigate();
-  const { installedApps } = useInstall();
-  console.log(installedApps);
+
   return (
     <div className="max-w-11/12 mx-auto py-20 w-full">
       {/* Details Card */}
