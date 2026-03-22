@@ -1,9 +1,16 @@
 import React from "react";
-import { useParams } from "react-router";
+import { useLoaderData } from "react-router";
+import AppDetailsReview from "../../components/AppDetailsReview/AppDetailsReview";
 
 const AppDetails = () => {
-  const { id } = useParams();
-  return <div className="max-w-11/12 mx-auto py-20">App Details {id}</div>;
+  const app = useLoaderData();
+
+  return (
+    <div className="max-w-11/12 mx-auto py-20 w-full">
+      {/* Details Card */}
+      <AppDetailsReview app={app}></AppDetailsReview>
+    </div>
+  );
 };
 
 export default AppDetails;

@@ -6,6 +6,7 @@ import Apps from "../pages/Apps/Apps";
 import Installations from "../pages/Installations/Installations";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import AppDetails from "../pages/AppDetails/AppDetails";
+import { Suspense } from "react";
 
 const router = createBrowserRouter([
   {
@@ -29,7 +30,15 @@ const router = createBrowserRouter([
       },
       {
         path: "/apps/:id",
-        Component: AppDetails,
+        loader: ({ params }) =>
+          fetch("/apps.json")
+            .then((response) => response.json())
+            .then((apps) => apps.find((app) => app.id === Number(params.id))),
+        element: (
+          <Suspense>
+            <AppDetails />
+          </Suspense>
+        ),
       },
     ],
   },

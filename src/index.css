@@ -8,10 +8,17 @@ body {
 }
 
 .active {
-  background: linear-gradient(to right, #753ee8, #8b5cf6); /* violet-500 */
+  background: linear-gradient(to right, #753ee8, #8b5cf6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
   border-bottom: 3px solid #753ee8;
+}
+.text-gradient {
+  background: linear-gradient(to right, #753ee8, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
