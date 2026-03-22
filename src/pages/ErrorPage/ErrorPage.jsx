@@ -31,7 +31,7 @@ const ErrorPage = () => {
         <div className="">
           <button
             onClick={() => navigate(-1)}
-            className="inline-block px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold text-lg rounded-xl"
+            className="btn inline-block px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold text-lg rounded-xl"
           >
             Go Back
           </button>

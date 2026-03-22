@@ -15,7 +15,8 @@
       { "name": "3 star", "count": 1200 },
       { "name": "4 star", "count": 4000 },
       { "name": "5 star", "count": 6200 }
-    ]
+    ],
+    "extendedDescription": "Task Master is a comprehensive task management solution designed for individuals and teams who want to maximize their daily productivity. Create tasks, set deadlines, assign priorities, and organize work into projects with ease. Features include recurring task scheduling, subtask breakdowns, Kanban board view, calendar integration, and detailed progress reports. Whether you're managing personal to-dos or coordinating with a team, Task Master keeps everyone aligned and on track."
   },
   {
     "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
@@ -33,7 +34,8 @@
       { "name": "3 star", "count": 900 },
       { "name": "4 star", "count": 3000 },
       { "name": "5 star", "count": 4150 }
-    ]
+    ],
+    "extendedDescription": "FitTrack is your all-in-one fitness companion that helps you build and sustain a healthier lifestyle. Log workouts, track calories, monitor body metrics, and set personalized fitness goals. The app supports over 200 exercise types with animated guides, integrates with popular wearables like Fitbit and Apple Watch, and provides AI-powered workout recommendations based on your progress. Weekly health summaries and motivational streaks keep you engaged and moving toward your best self."
   },
   {
     "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
@@ -51,7 +53,8 @@
       { "name": "3 star", "count": 800 },
       { "name": "4 star", "count": 2500 },
       { "name": "5 star", "count": 2800 }
-    ]
+    ],
+    "extendedDescription": "NoteFlow is a lightweight yet powerful note-taking app built for speed and simplicity. Capture ideas, meeting notes, and reminders in seconds with a clutter-free interface. Notes are automatically organized with smart tags, full-text search, and customizable folders. Supports rich text formatting, embedded images, checklists, and voice-to-text input. Seamless cloud sync ensures your notes are accessible across all your devices, even offline."
   },
   {
     "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
@@ -69,7 +72,8 @@
       { "name": "3 star", "count": 2000 },
       { "name": "4 star", "count": 5000 },
       { "name": "5 star", "count": 7200 }
-    ]
+    ],
+    "extendedDescription": "PhotoSnap is a professional-grade photo capture and editing app for mobile photographers of all skill levels. Use advanced camera controls including manual ISO, shutter speed, and white balance to take the perfect shot. The editing suite offers 100+ filters, AI-powered sky replacement, background blur, color grading tools, and blemish removal. Share your creations directly to social media or export in RAW format for desktop editing. PhotoSnap turns every smartphone into a creative studio."
   },
   {
     "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
@@ -87,9 +91,9 @@
       { "name": "3 star", "count": 1500 },
       { "name": "4 star", "count": 3500 },
       { "name": "5 star", "count": 4150 }
-    ]
+    ],
+    "extendedDescription": "TravelGo is the ultimate travel planning companion for adventurers and vacationers alike. Build detailed itineraries, discover hidden gems, and book flights, hotels, and activities all within one app. Offline maps ensure you never get lost even without a connection, while real-time currency conversion and local phrase guides prepare you for any destination. User-generated reviews and curated travel guides help you experience every location like a local."
   },
-
   {
     "image": "https://picsum.photos/200?random=6",
     "title": "CodeLab",
@@ -106,7 +110,8 @@
       { "name": "3 star", "count": 900 },
       { "name": "4 star", "count": 2800 },
       { "name": "5 star", "count": 3130 }
-    ]
+    ],
+    "extendedDescription": "CodeLab is an interactive coding education platform that makes learning programming fun, practical, and accessible to beginners and experienced developers alike. Choose from over 50 structured courses covering languages like Python, JavaScript, Swift, and Kotlin. Each lesson features live in-app code execution, instant feedback, and bite-sized challenges to reinforce learning. A built-in community forum lets learners collaborate, share projects, and get help from mentors. Track your progress with skill badges and a personalized learning roadmap."
   },
   {
     "image": "https://picsum.photos/200?random=7",
@@ -124,7 +129,8 @@
       { "name": "3 star", "count": 2500 },
       { "name": "4 star", "count": 7000 },
       { "name": "5 star", "count": 9500 }
-    ]
+    ],
+    "extendedDescription": "MusicBeat is a premium music streaming app with a library of over 80 million songs, podcasts, and live radio stations from around the globe. Enjoy lossless audio quality, real-time lyrics, and intelligent playlists that adapt to your taste and mood. The app's AI-powered discovery engine surfaces new artists and tracks you'll love, while offline download support keeps your music playing even without internet. Crossfade, equalizer settings, and sleep timer make MusicBeat the ultimate listening experience."
   },
   {
     "image": "https://picsum.photos/200?random=8",
@@ -142,7 +148,8 @@
       { "name": "3 star", "count": 2000 },
       { "name": "4 star", "count": 4000 },
       { "name": "5 star", "count": 4150 }
-    ]
+    ],
+    "extendedDescription": "ShopEase brings a seamless online shopping experience with thousands of products across fashion, electronics, home decor, groceries, and more. Browse personalized recommendations, compare prices across sellers, and take advantage of exclusive flash deals and seasonal sales. A one-tap checkout with multiple payment options and real-time order tracking ensures a smooth purchase process from start to delivery. Returns are hassle-free with a 30-day no-questions-asked policy."
   },
   {
     "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=400&q=80",
@@ -160,7 +167,8 @@
       { "name": "3 star", "count": 1000 },
       { "name": "4 star", "count": 1800 },
       { "name": "5 star", "count": 1700 }
-    ]
+    ],
+    "extendedDescription": "WeatherNow delivers hyper-accurate, real-time weather forecasts powered by a global network of meteorological stations and satellite data. Get hourly and 14-day extended forecasts, severe weather alerts, UV index, air quality readings, and precipitation probability for any location worldwide. The intuitive radar map lets you visualize storm movements, while customizable home screen widgets keep current conditions just a glance away. Ideal for daily planning, outdoor activities, and travel preparation."
   },
   {
     "image": "https://images.unsplash.com/photo-1605902711622-cfb43c44367f?auto=format&fit=crop&w=400&q=80",
@@ -178,7 +186,8 @@
       { "name": "3 star", "count": 3000 },
       { "name": "4 star", "count": 9000 },
       { "name": "5 star", "count": 11700 }
-    ]
+    ],
+    "extendedDescription": "GameZone is the ultimate mobile gaming platform hosting hundreds of free and premium games across genres including action, puzzle, RPG, sports, and strategy. Compete against players worldwide in real-time multiplayer modes, climb global leaderboards, and earn exclusive in-game rewards. Regular game updates and new title drops every week keep the library fresh. A built-in social layer lets you challenge friends, join gaming clans, and share your greatest moments with the community."
   },
   {
     "image": "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=400&q=80",
@@ -196,7 +205,8 @@
       { "name": "3 star", "count": 1100 },
       { "name": "4 star", "count": 3200 },
       { "name": "5 star", "count": 3020 }
-    ]
+    ],
+    "extendedDescription": "BudgetBuddy is a smart personal finance app that helps you take full control of your money. Link your bank accounts and credit cards to automatically categorize transactions, track spending habits, and monitor your net worth in real time. Set monthly budgets by category, receive overspending alerts, and work toward savings goals with visual progress trackers. The app also offers debt payoff planning, bill reminders, and monthly financial health reports to keep your finances on the right track."
   },
   {
     "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=400&q=80",
@@ -214,7 +224,8 @@
       { "name": "3 star", "count": 2000 },
       { "name": "4 star", "count": 5000 },
       { "name": "5 star", "count": 5350 }
-    ]
+    ],
+    "extendedDescription": "Learnify is an expansive online learning platform offering thousands of courses taught by industry experts and academic professionals. From business and technology to art, cooking, and personal development, there's something for every curious mind. Courses feature HD video lectures, downloadable resources, hands-on assignments, and community discussion boards. Earn verified certificates upon completion to showcase your new skills to employers. Flexible self-paced learning means you can study anytime, anywhere, on any device."
   },
   {
     "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
@@ -232,7 +243,8 @@
       { "name": "3 star", "count": 2500 },
       { "name": "4 star", "count": 6000 },
       { "name": "5 star", "count": 6700 }
-    ]
+    ],
+    "extendedDescription": "ChatNow is a fast, secure, and feature-rich instant messaging app designed for seamless personal and group communication. Send text messages, voice notes, photos, videos, and files with end-to-end encryption ensuring your conversations stay private. Create group chats of up to 500 members, set up broadcast channels, and use disappearing messages for added privacy. Reactions, stickers, GIFs, and threaded replies make every conversation more expressive and organized. Available across iOS, Android, and desktop platforms."
   },
   {
     "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80",
@@ -250,7 +262,8 @@
       { "name": "3 star", "count": 2200 },
       { "name": "4 star", "count": 4500 },
       { "name": "5 star", "count": 6300 }
-    ]
+    ],
+    "extendedDescription": "Foodie connects you to hundreds of local and national restaurants for fast, reliable food delivery right to your door. Browse menus with high-quality food photography, filter by cuisine, dietary preferences, or delivery time, and place your order in just a few taps. Live order tracking lets you follow your delivery every step of the way. Scheduled orders, group ordering for gatherings, and a loyalty rewards program that earns you free meals make Foodie the go-to app for every craving."
   },
   {
     "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=400&q=80",
@@ -268,7 +281,8 @@
       { "name": "3 star", "count": 1500 },
       { "name": "4 star", "count": 3500 },
       { "name": "5 star", "count": 3450 }
-    ]
+    ],
+    "extendedDescription": "SecureVPN protects your online privacy by encrypting your internet connection with military-grade 256-bit encryption. With servers in over 90 countries, you can bypass geo-restrictions to access your favorite content from anywhere in the world while keeping your IP address fully hidden. The automatic kill switch, DNS leak protection, and strict no-logs policy ensure maximum anonymity at all times. Lightweight and battery-efficient, SecureVPN connects in seconds and runs seamlessly in the background."
   },
   {
     "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=400&q=80",
@@ -286,7 +300,8 @@
       { "name": "3 star", "count": 900 },
       { "name": "4 star", "count": 2500 },
       { "name": "5 star", "count": 2400 }
-    ]
+    ],
+    "extendedDescription": "CalendarPro is an advanced scheduling and time management app that brings all your calendars into one unified, elegant view. Sync effortlessly with Google Calendar, Outlook, and iCal, and manage personal, work, and shared team calendars side by side. Smart scheduling suggestions help you find the best meeting times, while color-coded events, recurring reminders, and custom event templates save you time. A built-in time zone converter and weekly focus planner make CalendarPro perfect for professionals and busy families alike."
   },
   {
     "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=400&q=80",
@@ -304,7 +319,8 @@
       { "name": "3 star", "count": 1500 },
       { "name": "4 star", "count": 3000 },
       { "name": "5 star", "count": 2500 }
-    ]
+    ],
+    "extendedDescription": "NewsFlash is a smart news aggregator that delivers personalized, real-time news from thousands of trusted global and local sources. Powered by an AI curation engine, it learns your interests over time and surfaces the stories that matter most to you. Browse categories like politics, technology, sports, entertainment, science, and business, or follow specific topics and journalists directly. An offline reading mode, ad-free experience, and audio news playback for on-the-go listening make NewsFlash the modern way to stay informed."
   },
   {
     "image": "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=400&q=80",
@@ -322,7 +338,8 @@
       { "name": "3 star", "count": 1000 },
       { "name": "4 star", "count": 3200 },
       { "name": "5 star", "count": 4280 }
-    ]
+    ],
+    "extendedDescription": "LanguageLab uses proven linguistic science and gamified lessons to help you achieve fluency in over 40 languages. Short daily exercises covering vocabulary, grammar, speaking, and listening keep learning consistent and enjoyable. An AI conversation partner lets you practice real dialogue at your own pace, while speech recognition technology provides instant pronunciation feedback. Whether you're a complete beginner or brushing up on an existing skill, LanguageLab's adaptive difficulty system tailors every session to your level and pace."
   },
   {
     "image": "https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?auto=format&fit=crop&w=400&q=80",
@@ -340,7 +357,8 @@
       { "name": "3 star", "count": 1200 },
       { "name": "4 star", "count": 2200 },
       { "name": "5 star", "count": 1500 }
-    ]
+    ],
+    "extendedDescription": "DocScanner transforms your smartphone camera into a powerful portable scanner, letting you digitize documents, receipts, whiteboards, business cards, and books in seconds. Advanced edge detection and auto-perspective correction ensure every scan looks clean and professional. Built-in OCR (Optical Character Recognition) makes scanned text fully searchable and editable. Export to PDF or JPEG, organize scans into folders, and share directly to cloud storage services like Google Drive, Dropbox, or email with a single tap."
   },
   {
     "image": "https://images.unsplash.com/photo-1621768216002-5ac171876625?auto=format&fit=crop&w=400&q=80",
@@ -358,6 +376,7 @@
       { "name": "3 star", "count": 1800 },
       { "name": "4 star", "count": 4000 },
       { "name": "5 star", "count": 3750 }
-    ]
+    ],
+    "extendedDescription": "CryptoTrack is a real-time cryptocurrency portfolio and market tracking app for both casual investors and seasoned traders. Monitor live prices, market cap, trading volume, and percentage changes for over 10,000 coins and tokens across all major exchanges. Build and manage your personal portfolio with profit/loss analysis, cost basis tracking, and tax reporting tools. Customizable price alerts, an interactive candlestick chart viewer, and the latest crypto news feed keep you informed and ready to act on every market move."
   }
 ]
