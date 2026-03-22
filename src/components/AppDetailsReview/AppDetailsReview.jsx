@@ -62,7 +62,7 @@ const AppDetailsReview = ({ app }) => {
         <button
           onClick={() => installApp(app)}
           disabled={installed}
-          className={`btn ${installed ? "bg-red-400" : "bg-[#00D390]"}  text-white font-semibold text-lg`}
+          className={`btn ${installed ? "bg-red-300" : "bg-[#00D390]"}  text-white font-semibold text-lg`}
         >
           {installed ? "Installed" : `Install Now (${size}MB)`}
         </button>

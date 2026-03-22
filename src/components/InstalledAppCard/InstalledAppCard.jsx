@@ -16,7 +16,7 @@ const InstalledAppCard = ({ app }) => {
   return (
     <div
       key={app.id}
-      className="bg-white rounded-xl p-4 shadow flex items-center justify-between gap-4 mt-10"
+      className="bg-white rounded-xl p-4 shadow flex items-center justify-between gap-4 mt-3"
     >
       {/* Left */}
       <div className="flex items-center gap-3">
