@@ -31,19 +31,19 @@ const InstalledAppCard = ({ app }) => {
   return (
     <div
       key={app.id}
-      className="bg-white rounded-xl p-4 shadow flex items-center justify-between gap-4 mt-3"
+      className="bg-white rounded-xl p-4 shadow flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mt-3"
     >
       {/* Left */}
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-3 w-full sm:w-auto">
         <img
           src={app.image}
           className="w-14 h-14 object-cover rounded-lg shrink-0"
         />
-        <div className="">
-          <p className="font-semibold">
+        <div className="min-w-0">
+          <p className="font-semibold wrap-break-word">
             {title}: {description}
           </p>
-          <div className="flex gap-4 mt-2">
+          <div className="flex flex-wrap gap-4 mt-2">
             <div className="flex items-center justify-center gap-2">
               <img src={downloadIcon} className="h-4 w-4" alt="" />
               <span className="text-[#00D390]">
@@ -64,7 +64,7 @@ const InstalledAppCard = ({ app }) => {
       {/* Right */}
       <button
         onClick={() => handleUninstall(id)}
-        className="btn bg-[#00D390] text-white rounded-lg shrink-0"
+        className="btn bg-[#00D390] text-white rounded-lg shrink-0 w-full sm:w-auto"
       >
         Uninstall
       </button>

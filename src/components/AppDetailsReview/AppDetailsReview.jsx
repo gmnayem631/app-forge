@@ -37,16 +37,19 @@ const AppDetailsReview = ({ app }) => {
       draggable: true,
       progress: undefined,
       theme: "light",
-      // transition: Bounce,
     });
   };
 
   return (
-    <div className="flex gap-10">
-      <img src={image} className="bg-white h-87 rounded-lg" alt="" />
+    <div className="flex flex-col sm:flex-row gap-10">
+      <img
+        src={image}
+        className="bg-white w-full sm:w-auto sm:h-87 rounded-lg object-cover"
+        alt=""
+      />
       {/* Card content */}
       <div className="flex-1">
-        <h3 className="font-bold text-3xl">
+        <h3 className="font-bold text-2xl sm:text-3xl">
           {title}: {description}
         </h3>
         <p className="mt-4">
@@ -54,7 +57,7 @@ const AppDetailsReview = ({ app }) => {
           <span className="text-gradient font-bold">{companyName}</span>
         </p>
         <div className="mt-4 border-t border-dashed border-gray-400"></div>
-        <div className="flex justify-between w-1/2">
+        <div className="flex justify-between w-full sm:w-1/2">
           {/* Downloads */}
           <div className="flex flex-col gap-3 justify-center items-center my-10">
             <img src={downloadIcon} className="w-10" alt="" />
@@ -78,7 +81,7 @@ const AppDetailsReview = ({ app }) => {
         <button
           onClick={() => handleInstall(app)}
           disabled={installed}
-          className={`btn ${installed ? "bg-red-300" : "bg-[#00D390]"}  text-white font-semibold text-lg`}
+          className={`btn w-full sm:w-auto ${installed ? "bg-red-300" : "bg-[#00D390]"} text-white font-semibold text-lg`}
         >
           {installed ? "Installed" : `Install Now (${size}MB)`}
         </button>

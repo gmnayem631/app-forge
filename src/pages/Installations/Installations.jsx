@@ -23,7 +23,7 @@ const Installations = () => {
         </p>
       </div>
 
-      <div className="flex justify-between mt-10">
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mt-10">
         <p className="font-bold text-lg">
           {installedApps.length} {installedApps.length > 1 ? "Apps" : "App"}{" "}
           Found
@@ -31,7 +31,7 @@ const Installations = () => {
 
         {/*Dropdown for sort functionality */}
         <button
-          className="btn"
+          className="btn w-full sm:w-auto"
           popoverTarget="popover-1"
           style={{ anchorName: "--anchor-1" }}
         >
