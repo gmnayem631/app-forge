@@ -3,6 +3,7 @@ import downloadIcon from "../../assets/icon-downloads.png";
 import ratingsIcon from "../../assets/icon-ratings.png";
 import reviewsIcon from "../../assets/icon-review.png";
 import { useInstall } from "../../context/useInstall";
+import { toast } from "react-toastify";
 
 const formatDownloads = (num) => {
   if (num >= 1000000) return `${num / 1_000_000}M`;
@@ -24,6 +25,21 @@ const AppDetailsReview = ({ app }) => {
 
   const { installApp, isInstalled } = useInstall();
   const installed = isInstalled(app.id);
+
+  const handleInstall = (app) => {
+    installApp(app);
+    toast.success(`Installed ${title}`, {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      // transition: Bounce,
+    });
+  };
 
   return (
     <div className="flex gap-10">
@@ -60,7 +76,7 @@ const AppDetailsReview = ({ app }) => {
           </div>
         </div>
         <button
-          onClick={() => installApp(app)}
+          onClick={() => handleInstall(app)}
           disabled={installed}
           className={`btn ${installed ? "bg-red-300" : "bg-[#00D390]"}  text-white font-semibold text-lg`}
         >

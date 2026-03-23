@@ -2,6 +2,7 @@ import React from "react";
 import { useInstall } from "../../context/useInstall";
 import downloadIcon from "../../assets/icon-downloads.png";
 import ratingIcon from "../../assets/icon-ratings.png";
+import { toast } from "react-toastify";
 
 const formatDownloads = (num) => {
   if (num >= 1000000) return `${num / 1_000_000}M`;
@@ -12,7 +13,21 @@ const formatDownloads = (num) => {
 const InstalledAppCard = ({ app }) => {
   const { uninstallApp } = useInstall();
 
-  const { title, description, downloads, ratingAvg, size } = app;
+  const { id, title, description, downloads, ratingAvg, size } = app;
+
+  const handleUninstall = (id) => {
+    uninstallApp(id);
+    toast.error(`Uninstalled ${title}`, {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
+  };
   return (
     <div
       key={app.id}
@@ -48,7 +63,7 @@ const InstalledAppCard = ({ app }) => {
 
       {/* Right */}
       <button
-        onClick={() => uninstallApp(app.id)}
+        onClick={() => handleUninstall(id)}
         className="btn bg-[#00D390] text-white rounded-lg shrink-0"
       >
         Uninstall
