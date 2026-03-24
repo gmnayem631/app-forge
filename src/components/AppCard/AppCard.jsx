@@ -14,8 +14,12 @@ const AppCard = ({ app }) => {
   return (
     <Link to={`/apps/${app.id}`}>
       <div className="card bg-base-100 shadow-md rounded-2xl overflow-hidden border border-base-200 hover:shadow-xl transition-shadow duration-300">
-        <figure className="w-full h-44 overflow-hidden">
-          <img src={image} alt={title} className="w-full h-full object-cover" />
+        <figure className="w-full h-48 overflow-hidden">
+          <img
+            src={image}
+            alt={title}
+            className="rounded-lg h-35 object-cover"
+          />
         </figure>
 
         <div className="card-body p-4 gap-3">
