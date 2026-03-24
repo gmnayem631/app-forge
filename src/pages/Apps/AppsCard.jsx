@@ -14,12 +14,8 @@ const AppsCard = ({ app }) => {
   return (
     <Link to={`/apps/${app.id}`}>
       <div className="flex flex-col gap-2 p-2 mt-4 bg-white rounded-lg cursor-pointer hover:scale-105 hover:shadow-sm transition-all duration-300 ease-in-out">
-        <div className="w-full h-48 overflow-hidden p-2 rounded-lg">
-          <img
-            src={image}
-            className="rounded-lg w-full h-48 object-cover"
-            alt=""
-          />
+        <div className="w-full h-48 p-2 rounded-lg flex justify-center items-center">
+          <img src={image} className="rounded-lg h-35 object-cover" alt="" />
         </div>
         <div className="flex flex-col my-4">
           <p className="">
