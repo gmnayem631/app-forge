@@ -61,6 +61,7 @@ App Forge leverages React Router v7 for client-side routing, including data load
 
 ## Project Structure
 
+```
 app-forge/
 ├── public/
 │ └── apps.json # Static dataset of apps
@@ -77,6 +78,7 @@ app-forge/
 │ └── index.css
 ├── vite.config.js
 └── tailwind.config (via plugin)
+```
 
 ## Key Highlights
 
